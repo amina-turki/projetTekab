@@ -1,7 +1,7 @@
 
 <template>
   <div id="app">
-    <div class="mainn" >
+    <div class="mainn" v-bind:class="{ warm: state_weather }">
     <div style="flex-direction: row;">
     
     <div class="search-box">
